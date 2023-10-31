@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
-:root{
+:root {
     --fonte-principal: "Inter";
     --cor--fonte: #ffffff;
 }
@@ -11,8 +11,8 @@
 }
 
 .cabecalho {
-    padding: 0 3em 0.2em;
-    display:flex;
+    padding: 0 3em 0.1em;
+    display: flex;
     gap: 45px;
     background-color: black;
     align-items: center;
@@ -39,12 +39,35 @@
 }
 
 .botao {
-   
+    background-color: #000000;
+    border-radius: .25rem;
+    box-shadow: rgb(255, 255, 255) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    min-height: 1rem;
+    padding: calc(.450rem - 1px) calc(1.5rem - 1px);
+    font-family: var(--fonte-principal);
 }
 
-.carrosel{
-    display: flex;
+.carrossel__img {
+    display: none;
+}
+
+.principal {
+    display: block;
+}
+
+.categoria__titulo {
     text-align: center;
-    width: 100%;
-    height: 100%;
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 500;
+    padding: 1em 0 0.5em 0;
+}
+
+.categoria__imagem {
+   display:flex;
+   margin: 30px;
+   
 }
